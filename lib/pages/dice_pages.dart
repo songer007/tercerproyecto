@@ -12,6 +12,11 @@ class _DicePageState extends State<DicePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: Colors.red,
+      ),
       appBar: AppBar(
         title: Text("Dice Apps"),
       ),
